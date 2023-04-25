@@ -1,0 +1,101 @@
+.bg-image{
+    background-image: url(asset/bg.svg) 
+  }
+  .parent-container-fluid{
+      height:700px;
+      margin-top: 20px;
+    }
+    
+    .second-Section{
+      width: 100%;
+      position:relative;
+      height: 100%;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .second-div{
+      background-color: white;
+      border-radius: 8px;
+      border-color: blue;
+      border-width: 2px;
+      display: flex;
+      border-style: solid;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 40px;
+      
+      } 
+  
+     .user-image{
+      background-image: url(asset/user.svg) 
+     } 
+  
+     .mail-image{
+      background-image: url(asset/mail.svg)
+    }
+  
+    .eye-image{
+      background-image: url(asset/eye.svg)
+    }
+  
+  
+  
+    .fullName{
+      position:relative;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border: 2px solid blue;
+    }
+  
+    .form-control-personal{
+      width: 100%;
+      height: 30px;
+      outline: none;
+      border: none;
+    }
+  
+    ::placeholder { 
+      color: blue;
+      opacity: 1; 
+    }
+  
+  
+    .Email address{
+      position:relative;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border: 2px solid blue;
+    }
+    .form-control-personal{
+      width: 100%;
+      height: 30px;
+      outline: none;
+      border: none;
+    }
+    ::placeholder { 
+        color: blue;
+      opacity: 1; 
+    }
+  
+    .password{
+      position:relative;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      
+    }
+    .form-control-personal{
+      width: 100%;
+      height: 30px;
+      outline: none;
+      border: none;
+    }
+    ::placeholder {
+    color: blue; 
+    opacity: 1; 
+    }
